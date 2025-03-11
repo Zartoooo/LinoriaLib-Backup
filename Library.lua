@@ -2988,6 +2988,7 @@ function Library:CreateWindow(...)
     });
 
     local WindowLabel = Library:CreateLabel({
+        RichText = true;
         AnchorPoint = Vector2.new(0.5,0);
         Position = UDim2.new(0.5, 0, 0, 0);
         Size = UDim2.new(0, 0, 0, 25);
@@ -2995,7 +2996,6 @@ function Library:CreateWindow(...)
         TextXAlignment = Enum.TextXAlignment.Center;
         ZIndex = 1;
         Parent = Inner;
-        RichText = true;
     });
 
     local MainSectionOuter = Library:Create('Frame', {
@@ -3039,6 +3039,7 @@ function Library:CreateWindow(...)
         FillDirection = Enum.FillDirection.Horizontal;
         SortOrder = Enum.SortOrder.LayoutOrder;
         Parent = TabArea;
+        HorizontalAlignment = Enum.HorizontalAlignment.Center;
     });
 
     local TabContainer = Library:Create('Frame', {
