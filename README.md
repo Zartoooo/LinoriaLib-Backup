@@ -16,7 +16,7 @@ Used in the Linoria script hub: https://kyaru.cloud
 - Dependency boxes, allowing you to easily hide/show UI elements depending on the state of other UI elements
 
 ## Interface Preview
-<img src="https://i.imgur.com/qs0Hqc6.png" />
+<img src="https://github.com/Zartoooo/LinoriaLib-Backup/blob/main/preview.png?raw=true" />
 
 ## Contributors
 - Inori: Main developer.
