@@ -3001,11 +3001,11 @@ function Library:CreateWindow(...)
     if Config.GameName then
         local GameNameLabel = Library:CreateLabel({
             RichText = true;
-            AnchorPoint = Vector2.new(0.5,0);
-            Position = UDim2.new(0.5, 0, 0, 0);
-            Size = UDim2.new(1, 0, 0, 25);
+            AnchorPoint = Vector2.new(0,0);
+            Position = UDim2.new(0, 0, 0, 0);
+            Size = UDim2.new(1, -10, 0, 25);
             Text = Config.GameName;
-            TextXAlignment = Enum.TextXAlignment.Left;
+            TextXAlignment = Enum.TextXAlignment.Right;
             ZIndex = 1;
             Parent = Inner;
         });
